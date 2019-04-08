@@ -1,0 +1,33 @@
+{
+  "name": "hookit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -p .",
+    "dev": "ts-node-dev --respawn --transpileOnly ./index.ts",
+    "prod": "tsc ; node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrajaniemi/hookit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrajaniemi/hookit/issues"
+  },
+  "homepage": "https://github.com/jrajaniemi/hookit#readme",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.13.0",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "jslint": "^0.12.1",
+    "ts-node": "^8.0.3",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.2"
+  }
+}
