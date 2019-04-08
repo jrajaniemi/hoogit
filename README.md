@@ -8,4 +8,4 @@
 # Configuration
 
 1. Add your Github Webhook secret
-2. Add paths to your projects (Master and Stagig)
+2. Add paths to your projects (Master and Staging)
