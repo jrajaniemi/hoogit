@@ -1,10 +1,9 @@
 {
-  "name": "hookit",
+  "name": "hoogit",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple node CI-pipeline for Github Webhooks and Node.js",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc -p .",
     "dev": "ts-node-dev --respawn --transpileOnly ./index.ts",
     "prod": "tsc ; node ./dist/index.js"
@@ -13,8 +12,16 @@
     "type": "git",
     "url": "git+https://github.com/jrajaniemi/hookit.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "hoogit",
+    "Github",
+    "Webhook",
+    "node.js",
+    "CI",
+    "Continous Integration"
+  ],
+  "author": "jussi.rajaniemi@gmail.com",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/jrajaniemi/hookit/issues"
   },
