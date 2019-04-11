@@ -1,7 +1,7 @@
 # Usage
 
 ```shell
-# git clone https://github.com/jrajaniemi/hookit.git
+# git clone https://github.com/jrajaniemi/hoogit.git
 # npm i
 # npm run prod
 ```
